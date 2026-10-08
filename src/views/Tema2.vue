@@ -2,10 +2,40 @@
   .curso-main-container.pb-3
     BannerInterno
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-      .titulo-principal.color-acento-contenido
+      .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 2
-        h1 Titulo de primer nivel
+        h1 Caracterización y diagnóstico de la unidad productiva ovino caprina
+
+
+      
+      Separador
+      #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.1 Unidad productiva ovino caprina
+
+
+
+        
+      Separador
+      #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.2 Diagnóstico de la unidad productiva
+
+
+
+      Separador
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.3 Procesos productivos
+
+
+
+
+      Separador
+      #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.4 Recursos de la unidad productiva
+
+
+
+
 
 </template>
 

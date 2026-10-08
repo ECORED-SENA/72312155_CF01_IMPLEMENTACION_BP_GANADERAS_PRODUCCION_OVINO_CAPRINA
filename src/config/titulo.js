@@ -1,1 +1,2 @@
-module.exports = 'Ecored Base PKG'
+module.exports =
+  'Implementación de las buenas prácticas ganaderas en la producción ovino-caprina'

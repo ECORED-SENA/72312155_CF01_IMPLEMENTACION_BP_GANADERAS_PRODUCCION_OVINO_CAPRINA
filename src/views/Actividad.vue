@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Implementación de las buenas prácticas ganaderas en la producción ovino-caprina',
       titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> verificar que usted apropie los fundamentos, requisitos y procedimientos para planear y elaborar el plan de implementación de las Buenas Prácticas Ganaderas en unidades productivas ovino-caprinas.',
       barajarPreguntas: false,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,60 +30,61 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Cuál es el propósito principal de las Buenas Prácticas Ganaderas en la producción primaria?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Controlar peligros que afectan sanidad, inocuidad, bienestar, seguridad y ambiente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Limitar las BPG únicamente a la limpieza de corrales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Sustituir los registros por inspecciones ocasionales.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto:
+                'Aplicar iguales controles sin considerar el sistema productivo.',
               esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué elemento de las BPG permite reconstruir lo ocurrido con animales, lotes e insumos?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Prevención.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Trazabilidad.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Responsabilidad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Mejora continua.',
               esCorrecta: false,
             },
           ],
@@ -92,28 +93,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Cuál norma establece los requisitos de certificación BPG para la producción primaria de ovinos y caprinos?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Resolución ICA 20277 de 2018.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Resolución ICA 90464 de 2021.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Resolución MADR 136 de 2020.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Resolución ICA 00016409 de 2024.',
               esCorrecta: false,
             },
           ],
@@ -123,28 +125,28 @@ export default {
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Qué instrumento del ICA se utiliza como lista de chequeo BPG ovino-caprina?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Forma 3-860 ICA.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Plan sanitario.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ficha de caracterización.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Matriz de riesgos laborales.',
               esCorrecta: false,
             },
           ],
@@ -153,29 +155,30 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+          texto:
+            '¿Qué porcentaje de cumplimiento exige un criterio Fundamental en la certificación BPG?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: '60 %',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: '70 %',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: '80 %',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: '100 %',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -184,28 +187,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Qué debe hacer usted antes de formular el plan de implementación de BPG?',
           imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Caracterizar y diagnosticar la unidad productiva.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Solicitar directamente la certificación oficial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Eliminar los registros existentes.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Asignar criterios según su intuición.',
               esCorrecta: false,
             },
           ],
@@ -215,28 +218,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué fuentes debe combinar el diagnóstico para identificar fortalezas, brechas y peligros?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Inspección, entrevistas y revisión documental.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Únicamente entrevistas al personal.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Solo registros de producción.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Exclusivamente fotografías del predio.',
               esCorrecta: false,
             },
           ],
@@ -246,28 +249,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
+            '¿Qué herramienta permite visualizar relaciones entre actividades desde el ingreso hasta la salida de los animales?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Mapa de procesos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Inventario económico.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ficha de seguridad.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Registro de asistencia.',
               esCorrecta: false,
             },
           ],
@@ -277,28 +280,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿Qué debe diferenciar el diagnóstico de los recursos de la unidad productiva?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'La existencia de la suficiencia.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La sanidad de la inocuidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'La capacitación de la documentación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La prevención de la trazabilidad.',
               esCorrecta: false,
             },
           ],
@@ -308,28 +311,30 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            'En seguridad y salud en el trabajo, ¿qué diferencia existe entre peligro y riesgo?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'El peligro causa daño; el riesgo relaciona posibilidad y gravedad.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto:
+                'El riesgo causa daño; el peligro solo registra incidentes.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Ambos conceptos significan exactamente lo mismo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El peligro se aplica únicamente a productos químicos.',
               esCorrecta: false,
             },
           ],
@@ -339,28 +344,28 @@ export default {
         {
           id: 11,
           texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+            '¿Cuál control debe priorizarse antes de depender únicamente de elementos de protección personal?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Eliminar o sustituir el peligro cuando sea posible.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Entregar cualquier EPP disponible.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Registrar el peligro sin intervenirlo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Trasladar toda responsabilidad al trabajador.',
               esCorrecta: false,
             },
           ],
@@ -370,28 +375,29 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: '@/assets/actividad/imagen3.png',
+            '¿De qué depende principalmente la selección de los elementos de protección personal?',
+          imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Tarea, sustancia, vía de exposición y condiciones de uso.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Preferencia personal del trabajador.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Color y apariencia del equipo.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Disponibilidad del elemento más económico.',
               esCorrecta: false,
             },
           ],
@@ -401,28 +407,28 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué transforma el plan de implementación de BPG en actividades verificables?',
+          imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Las brechas identificadas en el diagnóstico.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Las opiniones sin evidencia.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Los documentos archivados sin revisión.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Las actividades ajenas al predio.',
               esCorrecta: false,
             },
           ],
@@ -432,28 +438,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Cuál conjunto corresponde a elementos esenciales del plan de implementación?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Actividades, responsables, recursos, fechas, indicadores y evidencias.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Solo actividades y fechas.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Únicamente responsables y presupuesto.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Solo registros y fotografías.',
               esCorrecta: false,
             },
           ],
@@ -463,28 +470,184 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué acción corresponde a la preparación para la certificación BPG antes de solicitar la evaluación oficial?',
+          imagen: '@/assets/actividad/imagen3.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Realizar una inspección interna.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Eliminar los hallazgos documentados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Asignar nuevas categorías a los criterios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Considerar la inspección interna como certificación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué función cumple el cronograma dentro del plan de implementación?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Representar actividades en el tiempo y comparar programación con ejecución.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Reemplazar el diagnóstico de la unidad productiva.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Otorgar automáticamente la certificación BPG.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Eliminar la necesidad de evidencias.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuándo se considera cumplida una actividad del cronograma?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Cuando fue ejecutada y comprobada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Cuando fue solamente programada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Cuando superó el plazo sin cierre.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cuando fue reprogramada sin justificación.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Cuál es la función principal de un protocolo en la implementación de BPG?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Describir cómo ejecutar una actividad de forma consistente y segura.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Registrar únicamente actividades ya terminadas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Sustituir todos los documentos oficiales.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Conservar datos sin indicar procedimientos.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto: '¿Cuándo debe completarse un registro de una actividad?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Al ejecutarla o inmediatamente después.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Antes de realizarla como evidencia anticipada.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo al finalizar cada año.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Únicamente durante una auditoría.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué caracteriza a los documentos legales y oficiales del sistema documental?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Respaldan registros, autorizaciones y documentación de movilización aplicable.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Describen solamente procedimientos de limpieza.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Registran exclusivamente pesos y producción de leche.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituyen los protocolos técnicos del predio.',
               esCorrecta: false,
             },
           ],
