@@ -312,6 +312,7 @@
       p Para obtener un concepto certificable se deben alcanzar simultáneamente los tres porcentajes. Cada categoría se evalúa por separado, de modo que un promedio general alto no compensa el incumplimiento de un criterio fundamental.
       p.mb-0 Interpretar un criterio exige identificar qué pide, dónde aplica y qué evidencia permite comprobarlo, contrastando el requisito con las instalaciones, los animales, los registros y la ejecución del personal. Por ejemplo, contar con un armario no demuestra por sí solo el almacenamiento correcto de los medicamentos; también deben verificarse su uso exclusivo, el control de vencimientos y el inventario. Además, la categoría de cada criterio no debe asignarse por intuición, sino conservar la indicada en la lista oficial y registrar la evidencia del hallazgo.
 
+
 </template>
 
 <script>
