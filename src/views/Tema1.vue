@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 1
-        h1 Fundamentos de las buenas prácticas ganaderas en la producción ovino caprina
+        h1 Fundamentos de las buenas prácticas ganaderas en la producción ovino-caprina
       p.mb-5 En la producción ovino-caprina, las #[b buenas prácticas ganaderas] articulan controles sanitarios, de alimentación, manejo e higiene para reducir los peligros que pueden afectar a los animales y a los productos destinados al consumo humano. Su aplicación exige relacionar cada requisito con las condiciones reales del predio, con las personas responsables y con evidencias que permitan comprobar su cumplimiento.
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 1.1 Buenas Prácticas Ganaderas (BPG)

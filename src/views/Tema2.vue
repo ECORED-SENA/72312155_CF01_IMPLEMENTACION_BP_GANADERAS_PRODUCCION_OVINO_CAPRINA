@@ -5,10 +5,10 @@
       .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 2
-        h1 Caracterización y diagnóstico de la unidad productiva ovino caprina
+        h1 Caracterización y diagnóstico de la unidad productiva ovino-caprina
       p.mb-5 La #[b caracterización] describe el funcionamiento del predio y el diagnóstico compara sus condiciones con los requisitos aplicables. Ambas actividades deben realizarse antes de formular el plan de implementación, ya que su resultado es una línea de base que permite justificar las prioridades y comprobar después si las acciones produjeron mejoras.
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 2.1 Unidad productiva ovino caprina
+        h2 2.1 Unidad productiva ovino-caprina
       p.mb-5 A continuación, se presenta la clasificación de los sistemas ganaderos según su orientación productiva y tipo de manejo, aspectos fundamentales para comprender las características y necesidades de cada unidad productiva.
       figure(data-aos="zoom-in").mb-5
         .video
@@ -74,7 +74,7 @@
       p.mb-5 Para el reconocimiento inicial puede utilizarse la siguiente lista de control, que no reemplaza la Forma 3-860 del ICA ni permite emitir un concepto oficial de certificación. Cuando un requisito no sea aplicable, la justificación debe corresponder al sistema productivo y a las instrucciones del instrumento oficial.
       .bg___color_2
         .px-5
-          .row.justify-content-center.mb-0
+          .row.justify-content-center.mb-5
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Figura 3.
@@ -281,7 +281,7 @@
             .col-xl-10
               .titulo-sexto.color-acento-contenido.mb-2(data-aos="fade-right")
                 h5 Figura 4.
-                span Ejemplo mapa de procesos de la unidad productiva ovina y caprina
+                span Ejemplo de mapa de procesos de la unidad productiva ovina y caprina
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/temas/t2/img17.png', alt='Diagrama de procesos de una unidad productiva ovino-caprina que organiza las etapas productivas y sus relaciones, desde el ingreso y manejo de los animales hasta la comercialización y los procesos de apoyo. ').m-auto
       p Cada actividad se asigna a un proceso principal y se indican sus relaciones con los demás. Por ejemplo, el registro de un tratamiento pertenece al proceso sanitario, pero debe consultarse en el ordeño y en la comercialización para controlar el tiempo de retiro. Esta relación impide que una decisión tomada en un área genere un riesgo en otra.
@@ -377,7 +377,7 @@
           .row.justify-content-center.align-items-center.mb-5
             .col-xl.mb-4.mb-lg-0
               .box___style_1.fit___box_2(data-aos="fade-right")
-                p.mb-0 El #[b inventario de recursos] registra la cantidad, la ubicación, el estado, el responsable y el uso de cada uno; en el caso de alimentos e insumos se añaden el proveedor, el lote y el vencimiento cuando corresponda. Los equipos críticos deben tener un responsable de mantenimiento, y los recursos compartidos entre procesos necesitan reglas de limpieza y disponibilidad.
+                p.mb-0 El #[b inventario de recursos] registra la cantidad, la ubicación, el estado, el responsable y el uso de cada uno; en el caso de alimentos e insumos, se añaden el proveedor, el lote y el vencimiento cuando corresponda. Los equipos críticos deben tener un responsable de mantenimiento, y los recursos compartidos entre procesos necesitan reglas de limpieza y disponibilidad.
             .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
               figure
                 img(src='@/assets/curso/temas/t2/img31.png', alt='').m-auto

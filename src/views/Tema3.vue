@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido(data-aos="flip-up")
         .titulo-principal__numero
           span 3
-        h1 Seguridad y salud en el trabajo en la producción ovino caprina
+        h1 Seguridad y salud en el trabajo en la producción ovino-caprina
       p.mb-5 La prevención de accidentes y enfermedades laborales debe integrarse al manejo de los animales, la limpieza, el ordeño, el almacenamiento de insumos y el mantenimiento. La seguridad del personal favorece la continuidad del trabajo y reduce los errores que pueden afectar a los animales y a los productos. Su planificación parte de las tareas reales del predio y no de una lista genérica de equipos de protección.
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 3.1 Seguridad y salud en el trabajo
@@ -18,7 +18,7 @@
                 figure
                   img(src='@/assets/curso/temas/t3/img1.png', alt='' style="width: 400px").m-auto
               .col-xl.fit___box_container
-                p.mb-0 Los controles se organizan en una jerarquía que va desde la eliminación del peligro y la sustitución hasta las medidas de ingeniería, las administrativas y la protección personal. Por ejemplo, para mover sacos se evalúa reducir el peso por unidad y utilizar ayudas de transporte antes de depender solo de instrucciones de levantamiento, y para contener animales se mejoran la instalación y el procedimiento de manejo antes de recurrir únicamente a prendas de protección.
+                p.mb-0 Los controles se organizan en una jerarquía que va desde la eliminación del peligro y la sustitución hasta las medidas de ingeniería, las administrativas y la protección personal. Por ejemplo, para mover sacos, se evalúa reducir el peso por unidad y utilizar ayudas de transporte antes de depender solo de instrucciones de levantamiento, y para contener animales, se mejoran la instalación y el procedimiento de manejo antes de recurrir únicamente a prendas de protección.
         .col-xl-auto.col-md-9(data-aos="fade-left")
           figure
             img(src='@/assets/curso/temas/t3/img2.png', alt='').m-auto
@@ -114,7 +114,7 @@
           Separador
           #t_3_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
             h2 3.2 Elementos de protección personal
-          p.mb-5 Los #[b elementos de protección personal (EPP)] reducen la exposición a peligros específicos y complementan los demás controles. Su selección depende de la tarea, la sustancia, la vía de exposición y las condiciones de uso, ya que un elemento adecuado para una actividad puede resultar insuficiente para otra. Por ello, se consultan la información del fabricante y la evaluación del riesgo. Los tipos de EPP se presentan a continuación:
+          p.mb-5 Los #[b elementos de protección personal (EPP)] reducen la exposición a peligros específicos y complementan los demás controles. Su selección depende de la tarea, la sustancia, la vía de exposición y las condiciones de uso, ya que un elemento adecuado para una actividad puede resultar insuficiente para otra. Por ello, se consulta la información del fabricante y la evaluación del riesgo. Los tipos de EPP se presentan a continuación:
           .bg___carrusel_1
             .px-5
               .row.justify-content-center.mb-5
@@ -157,7 +157,7 @@
               .row.justify-content-center.align-items-center.mb-0
                 .col-xl.mb-4.mb-lg-0
                   .box___style_1(data-aos="fade-right")
-                    p.mb-0 Los EPP deben tener la talla adecuada, ser compatibles entre sí, ofrecer resistencia suficiente y conservarse conforme a las instrucciones del fabricante. Antes de usarlos se revisan roturas, deterioro, limpieza y ajuste. Los elementos reutilizables se limpian y almacenan separados de alimentos e insumos, y los desechables se disponen según su contaminación y el procedimiento de residuos.
+                    p.mb-0 Los EPP deben tener la talla adecuada, ser compatibles entre sí, ofrecer resistencia suficiente y conservarse conforme a las instrucciones del fabricante. Antes de usarlos, se revisan roturas, deterioro, limpieza y ajuste. Los elementos reutilizables se limpian y almacenan separados de alimentos e insumos, y los desechables se disponen según su contaminación y el procedimiento de residuos.
                 .col-xl-auto.col-md-9.mb-4.mb-lg-0(data-aos="zoom-in")
                   figure
                     img(src='@/assets/curso/temas/t3/img12.png', alt='').m-auto

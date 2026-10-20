@@ -37,7 +37,7 @@ export default {
         nombreRuta: 'tema1',
         numero: '1',
         titulo:
-          'Fundamentos de las buenas prácticas ganaderas en la producción ovino caprina',
+          'Fundamentos de las buenas prácticas ganaderas en la producción ovino-caprina',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -62,12 +62,12 @@ export default {
         nombreRuta: 'tema2',
         numero: '2',
         titulo:
-          'Caracterización y diagnóstico de la unidad productiva ovino caprina',
+          'Caracterización y diagnóstico de la unidad productiva ovino-caprina',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Unidad productiva ovino caprina',
+            titulo: 'Unidad productiva ovino-caprina',
             hash: 't_2_1',
           },
           {
@@ -91,7 +91,7 @@ export default {
         nombreRuta: 'tema3',
         numero: '3',
         titulo:
-          'Seguridad y salud en el trabajo en la producción ovino caprina',
+          'Seguridad y salud en el trabajo en la producción ovino-caprina',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -238,7 +238,7 @@ export default {
     {
       termino: 'Plan de implementación',
       significado:
-        'documento que organiza las acciones, responsables, recursos, tiempos e indicadores necesarios para aplicar las BPG en una unidad productiva.n',
+        'documento que organiza las acciones, responsables, recursos, tiempos e indicadores necesarios para aplicar las BPG en una unidad productiva.',
     },
     {
       termino: 'Plan sanitario',
@@ -304,7 +304,7 @@ export default {
     },
     {
       referencia:
-        'Orduz Tovar, S. A., Mora-Lamilla, S. I., González Mora, L. V., Villarraga Córdoba, Ó. E., Prieto Puentes, D. F., Fuerte Barón, A. M., Pinto Castrillón, L. C., Geney Mora, G. F., Carrillo Amaya, S. E., Garrido Weber, E. R., Cadavid, L. A., Betancourt Botero, S. P., Mesa Forero, L. Y., Joya Cárdenas, D. E., Sandoval Caicedo, F. Á., & Mesa Rincón, F. E. (2020). Buenas prácticas de la cadena ovino caprina: Una experiencia SENA. Servicio Nacional de Aprendizaje (SENA).',
+        'Orduz Tovar, S. A., Mora-Lamilla, S. I., González Mora, L. V., Villarraga Córdoba, Ó. E., Prieto Puentes, D. F., Fuerte Barón, A. M., Pinto Castrillón, L. C., Geney Mora, G. F., Carrillo Amaya, S. E., Garrido Weber, E. R., Cadavid, L. A., Betancourt Botero, S. P., Mesa Forero, L. Y., Joya Cárdenas, D. E., Sandoval Caicedo, F. Á., & Mesa Rincón, F. E. (2020). Buenas prácticas de la cadena ovino-caprina: Una experiencia SENA. Servicio Nacional de Aprendizaje (SENA).',
       link: '',
     },
   ],

@@ -243,7 +243,7 @@
                 img(src='@/assets/curso/temas/t4/img14.png', alt="" ).m-auto
             .col-xl-7.order-1.order-lg-2.mb-4.mb-lg-0
               h4.txt--purpura.mb-4 Responsables
-              p.mb-0 Cada actividad identifica quién la ejecuta, quién la supervisa y quién la verifica. En predios pequeños una persona puede asumir varias funciones, pero estas deben quedar explícitas. La delegación incluye explicar el alcance, la fecha, los recursos y la evidencia esperada, y si se cambia el responsable, se realiza una entrega de información para que la actividad continúe.
+              p.mb-0 Cada actividad identifica quién la ejecuta, quién la supervisa y quién la verifica. En predios pequeños, una persona puede asumir varias funciones, pero estas deben quedar explícitas. La delegación incluye explicar el alcance, la fecha, los recursos y la evidencia esperada, y si se cambia el responsable, se realiza una entrega de información para que la actividad continúe.
         .py-3.py-md-4(titulo="Recursos")
           .row.justify-content-center.align-items-center
             .col-xl-5.order-2.order-lg-1
@@ -297,7 +297,7 @@
       Separador
       #t_4_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 4.4 Cronograma
-      p.mb-5 El #[b cronograma] representa las actividades en el tiempo y permite comparar lo programado con lo ejecutado. Incluye la actividad, el responsable, las fechas de inicio y finalización, la frecuencia, la evidencia y el estado, y cuando existen dependencias se identifica la actividad previa. Los #[b hitos], como un protocolo aprobado o un área habilitada, permiten comprobar productos concretos sin confundirlos con la simple realización de reuniones. La siguiente tabla presenta un ejemplo:
+      p.mb-5 El #[b cronograma] representa las actividades en el tiempo y permite comparar lo programado con lo ejecutado. Incluye la actividad, el responsable, las fechas de inicio y finalización, la frecuencia, la evidencia y el estado, y cuando existen dependencias, se identifica la actividad previa. Los #[b hitos], como un protocolo aprobado o un área habilitada, permiten comprobar productos concretos sin confundirlos con la simple realización de reuniones. La siguiente tabla presenta un ejemplo:
       .bg___color_3
         .px-5
           .row.justify-content-center.mb-5

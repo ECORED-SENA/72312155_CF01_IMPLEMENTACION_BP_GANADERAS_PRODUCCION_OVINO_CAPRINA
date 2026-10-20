@@ -78,7 +78,7 @@
               figure
                 img(src='@/assets/curso/temas/t4/img3.svg', alt='' style="width: 80px").m-auto
             .col-xl
-              p.mb-0 La aprobación del protocolo corresponde a la persona competente según su contenido, y las instrucciones sanitarias deben conservar la intervención profesional que exige la actividad. Por ejemplo, en la limpieza de bebederos el objetivo es retirar la suciedad y prevenir la contaminación. El procedimiento prevé asegurar un acceso alternativo al agua, retirar la materia orgánica, lavar, aplicar los productos según sus instrucciones cuando corresponda y restablecer el suministro en condiciones seguras. La comprobación incluye el estado del equipo, la ausencia de residuos y el registro de la tarea.
+              p.mb-0 La aprobación del protocolo corresponde a la persona competente según su contenido, y las instrucciones sanitarias deben conservar la intervención profesional que exige la actividad. Por ejemplo, en la limpieza de bebederos, el objetivo es retirar la suciedad y prevenir la contaminación. El procedimiento prevé asegurar un acceso alternativo al agua, retirar la materia orgánica, lavar, aplicar los productos según sus instrucciones cuando corresponda y restablecer el suministro en condiciones seguras. La comprobación incluye el estado del equipo, la ausencia de residuos y el registro de la tarea.
           p.mb-0 Según el momento en que intervienen, los protocolos pueden aplicar un #[b método preventivo], cuando establecen barreras antes de que ocurra un problema, o un #[b método correctivo], cuando responden a una desviación. En ambos casos, la observación, la revisión de registros y la comprobación del resultado acompañan la ejecución. Para elaborar un protocolo se sigue el siguiente procedimiento:
       .row.align-items-center.mb-5
         .col-xl(data-aos="fade-right")
@@ -321,7 +321,7 @@
 </template>
 
 <script>
-import audio1 from '@/assets/curso/temas/t5/audios/Podcast_Tipos_contribuyentes_Colombia.mp3'
+import audio1 from '@/assets/curso/temas/t5/audios/Podcast_Gestion_verificacion_sistema_documental.mp3'
 export default {
   name: 'Tema5',
   data: () => ({
