@@ -12,7 +12,7 @@
       p.mb-5 A continuación, se presenta la clasificación de los sistemas ganaderos según su orientación productiva y tipo de manejo, aspectos fundamentales para comprender las características y necesidades de cada unidad productiva.
       figure(data-aos="zoom-in").mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/T4Q637FGKkg" title="Caracterización de la unidad productiva" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption.fit___figcaption-video Video. Caracterización de la unidad productiva
       .row.justify-content-center.align-items-center.mb-5
         .col-xl.mb-4.mb-lg-0
